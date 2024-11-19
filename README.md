@@ -23,6 +23,7 @@
    - Multiple replicas for high availability
 
 ### 3. Project Structure
+```
 .
 ├── frontend/
 │   ├── Dockerfile
@@ -40,7 +41,7 @@
 │   ├── kubernetes.tf
 │   └── outputs.tf
 └── Makefile
-
+```
 
 
 **NB:** Replace `your-registry` in the Makefile and variables.tf with your Docker registry (e.g., your Docker Hub username)
